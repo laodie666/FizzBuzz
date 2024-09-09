@@ -6,7 +6,7 @@ class FizzBuzz {
     public static void main(String[] args) {
 
 
-        int i = 1;
+        int i = 0;
 //        for (int i = 1; i < 100; i++) {
         while (i < 100) {
             i = FuzzBuzz_loop_content(i);
@@ -15,6 +15,8 @@ class FizzBuzz {
 
     private static int FuzzBuzz_loop_content(int i) {
         // Find out which numbers divide i.
+        i++;
+
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
@@ -36,7 +38,7 @@ class FizzBuzz {
             System.out.println(i);
 
         }
-        i++;
+
         return i;
     }
 //    }
