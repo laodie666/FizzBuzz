@@ -4,7 +4,7 @@ public class Multiples {
         int multiple_count = 0;
         int upper_bound = 1000;
 
-        for (int i = 0; i < upper_bound; i++) {
+        for (int i = 1; i < upper_bound; i++) {
             if (i % 3 == 0 || i % 5 == 0) {
                 multiple_count++;
             }
