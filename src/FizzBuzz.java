@@ -9,11 +9,11 @@ class FizzBuzz {
         int i = 0;
 //        for (int i = 1; i < 100; i++) {
         while (i < 100) {
-            i = FuzzBuzz_loop_content(i);
+            i = FizzBuzz_loop_content(i);
         }
     }
 
-    private static int FuzzBuzz_loop_content(int i) {
+    public static int FizzBuzz_loop_content(int i) {
         // Find out which numbers divide i.
         i++;
 
